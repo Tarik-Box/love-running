@@ -28,6 +28,9 @@ header{
     z-index: 99;
     width: 100%;
     box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: space-between; 
+    align-items: baseline;
 }
 header a{
     text-decoration: none;
@@ -38,10 +41,10 @@ h1{
     font-weight: 700;
     color: #140664;
     letter-spacing: 4px;
+    margin-bottom: 1rem;
 }
 #menu{
     list-style: none;
-    gap: 1rem;
     font-size: larger;
 }
 #menu li{
@@ -56,13 +59,22 @@ nav{
     position: absolute;
     background-color: #fff;
     width: 100%;
+    top: 100%;
     left: 0;
-    padding: 0 1em;
-    box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.2);
+    padding: 0 1rem;
+    box-shadow: 0 2px 1px 1px rgba(0,0,0,0.2);
     display: none;
 
 }
-
+#nav-toggle:checked~nav{
+    display: block;
+}
+#nav-toggle{
+    display: none;
+}
+.nav-toggle-label{
+    font-size: 2rem;
+}
 
 /* Main */
 main{
