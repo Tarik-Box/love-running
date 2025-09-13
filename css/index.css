@@ -1,0 +1,18 @@
+/* Reset some default styles */
+*{
+    margin: 0.2rem 5rem 1rem 5rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+/* Header */
+header{
+    background-color: aqua;
+}
+/* Main */
+main{
+    background-color: lightgrey;
+}
+/* Footer */
+footer{
+    background-color: rgb(88, 71, 182);
+}
