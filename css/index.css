@@ -80,6 +80,7 @@ nav{
 main{
     background-color: lightgrey;
     flex: 1 0 auto;
+    margin-top: 8rem;
 }
 /* Footer */
 footer{
