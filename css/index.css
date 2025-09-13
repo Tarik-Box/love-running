@@ -41,9 +41,7 @@ h1{
 }
 #menu{
     list-style: none;
-    display: flex;
     gap: 1rem;
-    justify-content: flex-end;
     font-size: larger;
 }
 #menu li{
@@ -52,6 +50,20 @@ h1{
 .active{
     border-bottom: 1px solid #181717;
 }
+
+/* Navbar dropdown "Burger menu" toggle */
+nav{
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    padding: 0 1em;
+    box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.2);
+    display: none;
+
+}
+
+
 /* Main */
 main{
     background-color: lightgrey;
