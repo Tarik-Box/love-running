@@ -87,6 +87,16 @@ footer{
     background-color: rgb(255, 255, 255);
     ;
 }
+#social-media{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    gap: 5rem;
+}
+i{
+    font-size: 175%;
+    color: #140664;}
 
 
 
