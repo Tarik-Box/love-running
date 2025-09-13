@@ -84,7 +84,8 @@ main{
 }
 /* Footer */
 footer{
-    background-color: rgb(98, 72, 243);
+    background-color: rgb(255, 255, 255);
+    ;
 }
 
 
@@ -97,7 +98,7 @@ footer{
         box-shadow: none;
         width: fit-content;
         padding: 1em;
-        display: block !important;
+        display: block;
     }
     #menu{
         display: flex;
