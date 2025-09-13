@@ -4,6 +4,18 @@
     padding: 0.5rem;
     box-sizing: border-box;
 }
+
+/* Body Globals */
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Project style */
+    color: tomato;
+
+}
+
+
 /* Header */
 header{
     background-color: aqua;
@@ -11,6 +23,7 @@ header{
 /* Main */
 main{
     background-color: lightgrey;
+    flex: 1 0 auto;
 }
 /* Footer */
 footer{
