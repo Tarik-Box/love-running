@@ -36,7 +36,7 @@ header a{
     text-decoration: none;
     color: inherit;
 }
-h1{
+h1 ,h2 , h3{
     text-transform: uppercase;
     font-weight: 700;
     color: #140664;
@@ -79,7 +79,7 @@ nav{
 /* Main */
 main{
     flex: 1 0 auto;
-    margin-top: 8rem;
+    margin-top: 9rem;
 }
 
 /* hero section */
@@ -88,8 +88,21 @@ main{
     height: 800px;
     width: 100%;
     background: url(../images/hero-image.webp)no-repeat center center/cover;
+    position: relative;
 }
-
+#cover-text{
+    background-color: rgba(61, 41, 61, 0.342);
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 5%;
+    width: 80%;
+    min-height: 200px;
+    padding: 40px 0 0 10px;
+}
+#cover-text > h2, #cover-text > h3{
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 /* Footer */
 footer{
     background-color: rgb(255, 255, 255);
@@ -136,6 +149,11 @@ i{
     /* Nav links */
     #menu a:hover{
         border-bottom: 1px solid #181717;
+    }
+    /* Hero Section */
+    #cover-text{
+        width:100%;
+        text-align: center;
     }
 
 }
